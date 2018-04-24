@@ -1,0 +1,7 @@
+# Text backup files
+*.bak
+*.pyc
+
+#Database
+*.sqlite3
+
