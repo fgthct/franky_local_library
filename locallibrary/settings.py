@@ -29,7 +29,7 @@ SECRET_KEY = 'o61(a_9v^qn$guumy(3%*2&24ou9_7*s110zr!@bp=h1^tiaoj'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sheltered-everglades-91702.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
